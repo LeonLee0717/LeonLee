@@ -16,9 +16,9 @@ def solve_equation(a, b, c):
     
 
 # You can use the following examples to test your implementation
-# solve_equation(1, -1, -6)
-# solve_equation(3, 42, 39)
-# solve_equation(1,  0, -4)
-# solve_equation(1,  0,  0)
-# solve_equation(0,  1, -5)
-# solve_equation(1,  1,  1)
+solve_equation(1, -1, -6)
+solve_equation(3, 42, 39)
+solve_equation(1,  0, -4)
+solve_equation(1,  0,  0)
+solve_equation(0,  1, -5)
+solve_equation(1,  1,  1)
