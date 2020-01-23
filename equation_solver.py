@@ -4,13 +4,7 @@ def solve_equation(a, b, c):
     
     if a == 0:
       print("a = 0 :This is not a 2nd degree equation.")
-    """
-    Solves a second degree equation of the form:
-        
-        a * x^2 + b * x + c = 0
-    
-    Returns the two possible solutions an equation may have.
-    """
+
     D = (b ** 2 - 4 * a * c) ** 0.5        
     x1 = (-b + D) / (2*a)
     x2 = (-b - D) / (2*a)
@@ -22,9 +16,9 @@ def solve_equation(a, b, c):
     
 
 # You can use the following examples to test your implementation
-solve_equation(1, -1, -6)
-solve_equation(3, 42, 39)
-solve_equation(1,  0, -4)
-solve_equation(1,  0,  0)
-solve_equation(0,  1, -5)
-solve_equation(1,  1,  1)
+# solve_equation(1, -1, -6)
+# solve_equation(3, 42, 39)
+# solve_equation(1,  0, -4)
+# solve_equation(1,  0,  0)
+# solve_equation(0,  1, -5)
+# solve_equation(1,  1,  1)
